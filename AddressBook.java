@@ -50,8 +50,8 @@ class AddressBook {
 	Scanner myObj2 = new Scanner(System.in);
             System.out.println("Enter a Number to edit the Entry: 1.FirstName 2.LastName, 3.Address 4.City 5.State 6.Zip 7.Phone");
             int user_choice_to_edit = myObj2.nextInt();
-//		userData.
-/*        switch(user_choice_to_edit) {
+
+        switch(user_choice_to_edit) {
         case 1:
 	System.out.println("Input: "+ user_choice_to_edit);
         break;
@@ -75,7 +75,7 @@ class AddressBook {
         break;
            default :
         System.out.println("Invalid Input: "+ user_choice_to_edit);
-        }*/
+        }
 
 	print();
 	}
