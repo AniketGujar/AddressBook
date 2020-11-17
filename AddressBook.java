@@ -47,12 +47,11 @@ class AddressBook {
 	}
 
 	public static void editExisting(){
-	System.out.println(userData.get(0).firstName +" "+userData.get(0).lastName);
-            Scanner myObj2 = new Scanner(System.in);
+	Scanner myObj2 = new Scanner(System.in);
             System.out.println("Enter a Number to edit the Entry: 1.FirstName 2.LastName, 3.Address 4.City 5.State 6.Zip 7.Phone");
             int user_choice_to_edit = myObj2.nextInt();
-
-        switch(user_choice_to_edit) {
+//		userData.
+/*        switch(user_choice_to_edit) {
         case 1:
 	System.out.println("Input: "+ user_choice_to_edit);
         break;
@@ -76,31 +75,30 @@ class AddressBook {
         break;
            default :
         System.out.println("Invalid Input: "+ user_choice_to_edit);
-        }
+        }*/
 
 	print();
 	}
 
 	public static void deleteEntry(){
-	print();
 
             Scanner myObj1 = new Scanner(System.in);
             System.out.println("Enter a Number to Delete the Entry: 1.FirstEntry 2.SecondEntry ...");
             int user_choice_to_delete = myObj1.nextInt();
-
         switch(user_choice_to_delete) {
         case 1:
-        System.out.println("Input: "+ user_choice_to_delete);
+	userData.removeFirst();
         break;
         case 2:
-        System.out.println("Input: "+ user_choice_to_delete);
+	userData.removeLast();
         break;
         case 3:
-        System.out.println("Input: "+ user_choice_to_delete);
+	userData.removeFirst();
         break;
            default :
         System.out.println("Invalid Input: "+ user_choice_to_delete);
         }
+	print();
 	}
 
 	public static void userInput(){
@@ -159,5 +157,4 @@ class AddressBook {
                 userData.add(info);
 		print();
         }
-
 }
