@@ -7,16 +7,22 @@ Please Enter a Number: 1.Create New   2.Edit Existing   3.View Entry   4.Delete 
 
 Enter Data FirstName
 Aniket
+
 Enter Data LastName
 Gujar
+
 Enter Data Address
 Shukrawar Peth
+
 Enter Data City
 Satara
+
 Enter Data  State
 Maharashtra
+
 Enter Data  ZipCode
 4150002
+
 Enter Data Phone Number
 1230456789
 
@@ -30,16 +36,22 @@ Please Enter a Number: 1.Create New   2.Edit Existing   3.View Entry   4.Delete 
 
 Enter Data FirstName
 Ganesh
+
 Enter Data LastName
 Chavan
+
 Enter Data Address
 Golmaruti
+
 Enter Data City
 Jaipur
+
 Enter Data  State
 Rajasthan
+
 Enter Data  ZipCode
 564864
+
 Enter Data Phone Number
 7894561230
 
@@ -57,16 +69,22 @@ Please Enter a Number: 1.Create New   2.Edit Existing   3.View Entry   4.Delete 
 
 Enter Data FirstName
 Jaydip
+
 Enter Data LastName
 Thombre
+
 Enter Data Address
 Rajdhani
+
 Enter Data City
 Hampi
+
 Enter Data  State
 Karnataka
+
 Enter Data  ZipCode
 645612
+
 Enter Data Phone Number
 4561237890
 
