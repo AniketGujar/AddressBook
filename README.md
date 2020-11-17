@@ -6,11 +6,8 @@ Please Enter a Number: 1.Create New   2.Edit Existing   3.View Entry   4.Delete 
 1
 
 Enter Data FirstName
-
 Aniket
-
 Enter Data LastName
-
 Gujar
 Enter Data Address
 Shukrawar Peth
