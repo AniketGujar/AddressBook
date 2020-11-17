@@ -2,6 +2,7 @@
 $ java AddressBook
 Please Enter a Number: 1.Create New   2.Edit Existing   3.View Entry   4.Delete Entry
 1
+
 Enter Data FirstName
 Aniket
 Enter Data LastName
@@ -22,6 +23,7 @@ Shukrawar Peth Satara Maharashtra 4150002
 
 Please Enter a Number: 1.Create New   2.Edit Existing   3.View Entry   4.Delete Entry
 1
+
 Enter Data FirstName
 Ganesh
 Enter Data LastName
@@ -46,6 +48,7 @@ Golmaruti Jaipur Rajasthan 564864
 
 Please Enter a Number: 1.Create New   2.Edit Existing   3.View Entry   4.Delete Entry
 1
+
 Enter Data FirstName
 Jaydip
 Enter Data LastName
@@ -74,6 +77,7 @@ Rajdhani Hampi Karnataka 645612
 
 Please Enter a Number: 1.Create New   2.Edit Existing   3.View Entry   4.Delete Entry
 2
+
 Enter a Number to edit the Entry: 1.FirstName 2.LastName, 3.Address 4.City 5.State 6.Zip 7.Phone
 3
 Input: 3
@@ -94,6 +98,7 @@ Rajdhani Hampi Karnataka 415009
 
 Please Enter a Number: 1.Create New   2.Edit Existing   3.View Entry   4.Delete Entry
 4
+
 Enter a Number to Delete the Entry: 1.FirstEntry 2.SecondEntry ...
 3
 Entry No.1: Aniket Gujar
