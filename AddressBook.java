@@ -93,7 +93,7 @@ class AddressBook {
 	userData.removeLast();
         break;
         case 3:
-	userData.removeFirst();
+	userData.removeLast();
         break;
            default :
         System.out.println("Invalid Input: "+ user_choice_to_delete);
